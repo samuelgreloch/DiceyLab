@@ -7,11 +7,12 @@ public class DiceTest {
     @Test
        public void main() {
         Scanner sc = new Scanner(System.in);
-        Dice d = new Dice();
-        Dice d20 = new Dice(20);
+        Dice d = new Dice(1000000);
+        Dice d20 = new Dice(1000000);
 
-        d.roll();
-        d20.roll();
+   d.roll();
+   d20.roll();
+
         System.out.println(d);
         System.out.println(d20);
 

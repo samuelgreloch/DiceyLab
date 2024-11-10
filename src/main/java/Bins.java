@@ -1,21 +1,21 @@
 import javax.xml.transform.Result;
 import java.util.HashMap;
     
-     class Bins extends Simulation {
+     class Bins extends Simulation{
 
 
         public static void  main(String[] args) {
 
 
-            HashMap<String, Integer> bin = new HashMap<String, Integer>();
-            bin.put("1", sum);
-            bin.put("2", sum2);
+            HashMap<Integer, Integer> bin = new HashMap<Integer, Integer>();
+           // bin.put("1", sum);
+            //bin.put("2", sum2);
 
 
 
-            System.out.println("1: "+ sum + ":" + "prob" + "***");
-            System.out.println("2: "+ sum2 + ":" + "prob" + "***");
-        }
+         //   System.out.println("1: "+ sum + ":" + "equation" + "***");
+         //   System.out.println("2: "+ sum2 + ":" + "prob" + "***");
+        }//
 
 
 

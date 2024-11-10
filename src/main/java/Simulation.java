@@ -1,23 +1,32 @@
-import java.util.Random;
-
-public class Simulation {
+public class Simulation extends Dice {
 //public static void main (String[] args) {
+
+    public int diceRoll() {
+        int diceValue = getValue();
+
+        return diceValue;
+
+    }
+
+}
+
+
+
+// 7 divided by 11 equals probality
+
+
+
 
 
     //int numRolls = 1000000;
     //int[] rollCounts = new int[6];
-    static Random random = new Random();
+  /*  static Random random = new Random();
     static Random random2 = new Random();
     static int dice2 = random.nextInt(1000000)+1;
     static int dice1 = random2.nextInt(1000000)+1;
     static int sum = (dice1 + dice2);
     static int sum2 = (dice1+dice2);
-
-
-    static boolean val = random.nextInt((int) 2.42)==0;
-
-
-
+*/
 
 
 
@@ -30,7 +39,7 @@ public class Simulation {
 
        // double probability = (double) rollCounts[i] / numRolls * 100;
 
-}
+
 
 /*
      String sum;

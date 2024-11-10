@@ -11,8 +11,8 @@ public class Dice {
         System.out.println("Your roll is " + x);
         return x;*/
 
-        private static int NUM_SIDES;
-        public static int value;
+        private final int NUM_SIDES;
+        private  int value;
 
 
         public Dice() {
